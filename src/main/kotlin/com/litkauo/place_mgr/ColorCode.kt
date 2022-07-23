@@ -1,0 +1,38 @@
+package com.litkauo.place_mgr
+import com.litkauo.place_mgr.*
+
+enum class ColorCode (val code: Byte) {
+	DarkRed     ( 0),
+	Red         ( 1),
+	LightRed    ( 2),
+	Orange      ( 3),
+	Yellow      ( 4),
+	PaleYellow  ( 5),
+	DarkGreen   ( 6),
+	Green       ( 7),
+	LightGreen  ( 8),
+	DarkTeal    ( 9),
+	Teal        (10),
+	LightTeal   (11),
+	DarkBlue    (12),
+	Blue        (13),
+	LightBlue   (14),
+	Indigo      (15),
+	Periwinkle  (16),
+	Lavender    (17),
+	DarkPurple  (18),
+	Purple      (19),
+	LightPurple (20),
+	Magenta     (21),
+	Pink        (22),
+	LightPink   (23),
+	DarkBrown   (24),
+	Brown       (25),
+	Beige       (26),
+	Black       (27),
+	DarkGray    (28),
+	Gray        (29),
+	LightGray   (30),
+	White       (31),
+}
+
